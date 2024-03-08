@@ -35,7 +35,7 @@ Descriptions:
 1. Injected web automation code in specflow steps class, which interact directly to elements on the HTML page
 2. Refactored steps class method code to use Page Object Model layer. Note that old codes commented out for comparison before and after refactoring
 
-## Instruction on how to run test?
+## Instruction on how to run test
 
 ### Pre-requisites:
 
