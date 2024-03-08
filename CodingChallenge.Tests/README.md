@@ -37,7 +37,7 @@ Descriptions:
 
 ## Instruction on how to run test?
 
-Pre-requisites:
+### Pre-requisites:
 
    - Download and install Visual Studio 2022 (Community Edition)
    - Download and install .Net Core SDK for running C# from command line
