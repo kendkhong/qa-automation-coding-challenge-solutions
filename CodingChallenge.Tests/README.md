@@ -40,28 +40,29 @@ Descriptions:
 ### Pre-requisites:
 
    - Download and install Visual Studio 2022 (Community Edition)
-   - Download and install .Net Core SDK for running C# from command line
+   - Download and install .Net Core SDK for running C# from the command line. It should be installed during the Visual Studio installation
    - Clone project to local directory (Ex: C:\)
    - Download and install Node JS for Windows 10 or 11 
-   - If it's necessary, run 'npm install eslint-plugin-react@latest --save-dev'
+   - If it's necessary, run 'npm install eslint-plugin-react@latest --save-dev' from the command line in the project root directory
 
-### Run tests from the command line (PowerShell)
+### Run tests from Test Explorer in Visual Studio 2022 (Community Edition)
 
-  1. Install .Net Core SDK for C#
-  2. Open a terminal (Powershell)
-  3. Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory 
-  4. Run 'yarn start'
-  5. Open another terminal
-  6. Change to 'C:\qa-automation-coding-challenge\CodingChallenge.Tests' project root directory
-  7. Run 'dotnet test'
-
-### Run from Test Explorer in Visual Studio 2022 (Community Edition)
-
-  1. Launch a 'qa-automation-coding-challenge-solutions' project in Visual Studio
+  1. Open 'qa-automation-coding-challenge-solutions' solution with Visual Studio
   2. Re-build the solution to ensure error free. If it's necessary, Open 'Nuget Package Manager' from 'Tools' menu to restore all the dependency packages
   3. Open 'Terminal' inside Visual Studio from 'View' menu
   4. Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory
-  5. Run 'yarn start'
-  6. Open 'Test Explorer' inside Visual Studio from 'View' menu 
-  7. Click on 'Test Explorer' handle to open from left or right side of pannel
-  8. Right click on the test suites, then select 'Run'
+  5. Run 'yarn start' to launch the application server
+  6. If encounter 'Cannot find module 'eslint-plugin-react-refresh'' error, re-build the project, then run 'yarn start' again
+  7. Open 'Test Explorer' inside Visual Studio from 'View' menu 
+  8. Click on 'Test Explorer' handle from left or right side of panel to open it
+  9. Right click on the test suites, then select 'Run'
+	
+### Run tests from the command line (PowerShell). Notes: This option only works after successfully built the project in Vistual Studio
+
+  1. Open a terminal (Powershell)
+  2. Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory 
+  3. Run 'yarn start'
+  4. Open another terminal
+  5. Change to 'C:\qa-automation-coding-challenge\CodingChallenge.Tests' project root directory
+  6. Run 'dotnet test'
+
