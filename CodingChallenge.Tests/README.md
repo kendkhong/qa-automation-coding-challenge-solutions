@@ -5,6 +5,8 @@ The 'CodingChallenge.Tests' project contains the following files:
    - SearchGithubRepoApplicationSteps.cs
    - SearchGithubRepoApplicationPage.cs
 
+Descriptions:
+
 1) Feature file has number of scenarios, and each scenario has number of steps.  These steps map to the methods in the specflow steps class.  And we can have multiple scenario steps mapping to the same method. 
 
 2) The Specflow Steps Class file is where the methods in the specflow steps class used Selenium WebDriver API to locate elements on the html page and interact with them.
@@ -33,32 +35,33 @@ The 'CodingChallenge.Tests' project contains the following files:
 1. Injected web automation code in specflow steps class, which interact directly to elements on the HTML page
 2. Refactored steps class method code to use Page Object Model layer. Note that old codes commented out for comparison before and after refactoring
 
-## How to run test?
+## Instruction on how to run test?
 
 Pre-requisites:
 
-   a) Download and install Visual Studio 2022 (Community Edition)
-   b) Download and install .Net Core SDK for running C# from command line
-   c) Clone project to local directory (Ex: C:\)
-   d) Download and install Node JS for Windows 10 or 11 
-   e) If it's necessary, run 'npm install eslint-plugin-react@latest --save-dev'
+   - Download and install Visual Studio 2022 (Community Edition)
+   - Download and install .Net Core SDK for running C# from command line
+   - Clone project to local directory (Ex: C:\)
+   - Download and install Node JS for Windows 10 or 11 
+   - If it's necessary, run 'npm install eslint-plugin-react@latest --save-dev'
 
-1) Run from command line
+1. Run from command line
 
-  a) Install .Net Core SDK for C#
-  b) Open a terminal (Powershell)
-  c) Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory 
-  d) Run 'yarn start'
-  e) Open another terminal
-  f) Change to 'C:\qa-automation-coding-challenge\CodingChallenge.Tests' project root directory
-  g) Run 'dotnet test'
+  1. Install .Net Core SDK for C#
+  2. Open a terminal (Powershell)
+  3. Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory 
+  4. Run 'yarn start'
+  5. Open another terminal
+  6. Change to 'C:\qa-automation-coding-challenge\CodingChallenge.Tests' project root directory
+  7. Run 'dotnet test'
 
-2) Run from Test Explorer in Visual Studio 2022 (Community Edition)
-  a) Launch a 'qa-automation-coding-challenge-solutions' project in Visual Studio
-  b) Re-build the solution to ensure error free. If it's necessary, Open 'Nuget Package Manager' from 'Tools' menu to restore all the dependency packages
-  c) Open 'Terminal' inside Visual Studio from 'View' menu
-  d) Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory
-  e) Run 'yarn start'
-  f) Open 'Test Explorer' inside Visual Studio from 'View' menu 
-  g) Click on 'Test Explorer' handle to open from left or right side of pannel
-  h) Right click on the test suites, then select 'Run'
+2. Run from Test Explorer in Visual Studio 2022 (Community Edition)
+
+  1. Launch a 'qa-automation-coding-challenge-solutions' project in Visual Studio
+  2. Re-build the solution to ensure error free. If it's necessary, Open 'Nuget Package Manager' from 'Tools' menu to restore all the dependency packages
+  3. Open 'Terminal' inside Visual Studio from 'View' menu
+  4. Change to 'C:\qa-automation-coding-challenge\qa-automation-coding-challenge' project root directory
+  5. Run 'yarn start'
+  6. Open 'Test Explorer' inside Visual Studio from 'View' menu 
+  7. Click on 'Test Explorer' handle to open from left or right side of pannel
+  8. Right click on the test suites, then select 'Run'
