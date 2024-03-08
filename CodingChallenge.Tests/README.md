@@ -45,7 +45,7 @@ Pre-requisites:
    - Download and install Node JS for Windows 10 or 11 
    - If it's necessary, run 'npm install eslint-plugin-react@latest --save-dev'
 
-1. Run from command line
+### Run tests from the command line (PowerShell)
 
   1. Install .Net Core SDK for C#
   2. Open a terminal (Powershell)
@@ -55,7 +55,7 @@ Pre-requisites:
   6. Change to 'C:\qa-automation-coding-challenge\CodingChallenge.Tests' project root directory
   7. Run 'dotnet test'
 
-2. Run from Test Explorer in Visual Studio 2022 (Community Edition)
+### Run from Test Explorer in Visual Studio 2022 (Community Edition)
 
   1. Launch a 'qa-automation-coding-challenge-solutions' project in Visual Studio
   2. Re-build the solution to ensure error free. If it's necessary, Open 'Nuget Package Manager' from 'Tools' menu to restore all the dependency packages
