@@ -7,7 +7,7 @@ The 'CodingChallenge.Tests' project contains the following files:
 
 Descriptions:
 
-1) Feature file has number of scenarios, and each scenario has number of steps.  These steps map to the methods in the specflow steps class.  And we can have multiple scenario steps mapping to the same method. 
+1) Feature file has one feature and number of scenarios, and each scenario has number of steps.  These steps map to the methods in the specflow steps class.  And we can have multiple scenario steps mapping to the same method. 
 
 2) The Specflow Steps Class file is where the methods in the specflow steps class used Selenium WebDriver API to locate elements on the html page and interact with them.
 
@@ -15,12 +15,19 @@ Descriptions:
 
 3) The HTML page from the 'Get Github Repos' application has number of elements
 
+## Why we use Gherkin?
+
+- Gherkin is a business readable domain specific language
+- Gherkin represents tests in a natural language, not code
+- Gherkin is line-oriented and uses indentation to create structure
+- Gherkin uses keywords such as Feature, Scenario
+- Gherkin localized in 40+ spoken languages (French, Japanese, etc.)
+
 ## Why we use Specflow?
 
 - Specflow help to bridge the communication gap between the domain expert and the developer
 - Specflow represents behavior of the system to create more readable web automation
 - Specflow defines a living document system where source code exist in source control system and specification exists alongside source code
-
 
 ## Why we use Page Object Model?
 
