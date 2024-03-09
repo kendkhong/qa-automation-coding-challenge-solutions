@@ -52,10 +52,9 @@ Descriptions:
 	3. Select '.NET desktop development'
    2. Upon your completion of Visual Studio installation, install 'Specflow for Visual Studio 2022': 
 	1. Click on 'Extensions' from menu and click on 'Manage Extensions..', then search for 'Specflow for Visual Studio 2022' and install it
-   3. Download and install .Net Core SDK for running C# from the command line. It should be installed during the Visual Studio installation
-   4. Clone project to local directory (Ex: C:\)
-   5. Download and install Node.js (https://nodejs.org/en/download)
-   6. If necessary, run 'npm install eslint-plugin-react@latest --save-dev' from the command line in the project root directory
+   3. Clone project to local directory (Ex: C:\)
+   4. Download and install Node.js (https://nodejs.org/en/download)
+   5. If necessary, run 'npm install eslint-plugin-react@latest --save-dev' from the command line in the project root directory
 
 ### Run tests from Test Explorer in Visual Studio 2022 (Community Edition)
 
