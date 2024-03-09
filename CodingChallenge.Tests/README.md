@@ -50,7 +50,7 @@ Descriptions:
 	1. Select 'ASP.NET and Web Development' 
 	2. Select 'Node.js development' 
 	3. Select '.NET desktop development'
-   2. Upon your completion of Visual Studio installation, install 'Specflow for Visual Studio 2022'
+   2. Upon your completion of Visual Studio installation, install 'Specflow for Visual Studio 2022': 
 	1. Click on 'Extensions' from menu and click on 'Manage Extensions..', then search for 'Specflow for Visual Studio 2022' and install it
    3. Download and install .Net Core SDK for running C# from the command line. It should be installed during the Visual Studio installation
    4. Clone project to local directory (Ex: C:\)
