@@ -41,8 +41,9 @@ namespace CodingChallenge.Tests
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "", "SearchRepoApplication", "\tIn order to maintain an easy overview of students progress\r\n\tAs an owner of a we" +
-                    "b development school\r\n\tI use a simplistic method to get a simple list of github " +
-                    "repos owned by a given student, \r\n\tand see the most basic details of each repo", ProgrammingLanguage.CSharp, featureTags);
+                    "b development school\r\n\tI use a simplistic search method to get a simple list of " +
+                    "github repos owned by a given student, \r\n\tand see the most basic details of each" +
+                    " repo", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         

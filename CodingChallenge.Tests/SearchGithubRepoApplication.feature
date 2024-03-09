@@ -1,7 +1,7 @@
 ﻿Feature: SearchRepoApplication
 	In order to maintain an easy overview of students progress
 	As an owner of a web development school
-	I use a simplistic method to get a simple list of github repos owned by a given student, 
+	I use a simplistic search method to get a simple list of github repos owned by a given student, 
 	and see the most basic details of each repo
 
 
