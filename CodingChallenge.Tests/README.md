@@ -4,16 +4,17 @@ The 'CodingChallenge.Tests' project contains the following files:
    - SearchGithubRepoApplication.feature
    - SearchGithubRepoApplicationSteps.cs
    - SearchGithubRepoApplicationPage.cs
+   - README.md
 
 Descriptions:
 
-1) Feature file has one feature and number of scenarios, and each scenario has number of steps.  These steps map to the methods in the specflow steps class.  And we can have multiple scenario steps mapping to the same method. 
+1) Feature file contains one feature and number of scenarios, and each scenario has number of steps.  These steps map to the methods in the specflow steps class.  And we can have multiple scenario steps mapping to the same method. 
 
 2) The Specflow Steps Class file is where the methods in the specflow steps class used Selenium WebDriver API to locate elements on the html page and interact with them.
 
 3) The Page Object File contains test codes, which it uses Selenium WebDriver API to locate HTML elements and interact with them
 
-3) The HTML page from the 'Get Github Repos' application has number of elements
+4) The README.md file contains an overview of test framework structure and instructions on how to run these tests
 
 ## Why we use Gherkin?
 
