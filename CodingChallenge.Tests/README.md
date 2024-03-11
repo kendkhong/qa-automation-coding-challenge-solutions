@@ -47,7 +47,7 @@ Descriptions:
 
 ### Pre-requisites:
 
-   1. Download and install Visual Studio 2022 (Community Edition) and select the following components:
+   1. Download and install Visual Studio 2022, Community Edition (https://visualstudio.microsoft.com/vs/community/) and select the following components:
 	1. Select 'ASP.NET and Web Development' 
 	2. Select 'Node.js development' 
 	3. Select '.NET desktop development'
