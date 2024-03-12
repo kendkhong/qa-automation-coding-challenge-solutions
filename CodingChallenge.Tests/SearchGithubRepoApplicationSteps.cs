@@ -55,7 +55,7 @@ namespace CodingChallenge.Tests
             //driver.FindElement(By.ClassName("submit")).Click();
 
             // Refactoring steps to use Page Object Model
-            searchGithubRepoApplicationPage.SubmitSearchRepoForm();
+            searchGithubRepoApplicationPage.GoButton();
         }
 
         [Then(@"I should see the search result section for kendkhong")]

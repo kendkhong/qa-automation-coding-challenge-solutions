@@ -60,7 +60,7 @@ namespace CodingChallenge.Tests
 
         public IWebElement ValidateGithubRepoUserNameLabel() => driver.FindElement(By.XPath("//*[@id=\"root\"]/div/main/form/div/label"));
         public IWebElement ValidateNoReposStatus() => driver.FindElement(By.ClassName("output-status-text"));
-        public SearchGithubRepoApplicationPage SubmitSearchRepoForm()
+        public SearchGithubRepoApplicationPage GoButton()
         {
             driver.FindElement(By.ClassName("submit")).Click();
 
