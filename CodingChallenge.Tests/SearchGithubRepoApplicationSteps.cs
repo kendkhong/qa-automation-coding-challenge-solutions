@@ -49,8 +49,8 @@ namespace CodingChallenge.Tests
 
         }
 
-        [When(@"I submit my search repos form")]
-        public void WhenISubmitMySearchReposForm()
+        [When(@"I submit my search repos form by clicking on the Go button")]
+        public void WhenISubmitMySearchReposFormByclickingOnTheGoButton()
         {
             //driver.FindElement(By.ClassName("submit")).Click();
 
