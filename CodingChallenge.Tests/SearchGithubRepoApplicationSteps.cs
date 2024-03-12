@@ -38,8 +38,8 @@ namespace CodingChallenge.Tests
 
         }
 
-        [Given(@"I enter a github user name of (.*)")]
-        public void GivenIEnterAGithubUserNameOf(string userName)
+        [When(@"I enter a github user name of (.*)")]
+        public void WhenIEnterAGithubUserNameOf(string userName)
         {
             //IWebElement githubUserName = driver.FindElement(By.Id("username"));
             //githubUserName.SendKeys(userName);

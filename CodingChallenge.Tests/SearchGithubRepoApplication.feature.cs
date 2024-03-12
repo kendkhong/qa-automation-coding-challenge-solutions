@@ -105,10 +105,10 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("I am on the search github repos form screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 10
-  testRunner.And("I enter a github user name of kendkhong", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.When("I enter a github user name of kendkhong", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 11
- testRunner.When("I submit my search repos form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+  testRunner.And("I submit my search repos form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
  testRunner.Then("I should see the search result section for kendkhong", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -139,10 +139,10 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("I am on the search github repos form screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 16
-  testRunner.And("I enter a github user name of kenkhong", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("I enter a github user name of kenkhong", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 17
- testRunner.When("I submit my search repos form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+  testRunner.And("I submit my search repos form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 18
  testRunner.Then("I should see no search result section for kenkhong", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

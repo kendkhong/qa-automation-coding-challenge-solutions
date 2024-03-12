@@ -7,13 +7,13 @@
 
 Scenario: Search repos completed successfully
 	Given I am on the search github repos form screen
-		And I enter a github user name of kendkhong
-	When I submit my search repos form 
+    When I enter a github user name of kendkhong
+		And I submit my search repos form 
 	Then I should see the search result section for kendkhong
 
 Scenario: No search result returned for non-existed github user name
 	Given I am on the search github repos form screen
-		And I enter a github user name of kenkhong
-	When I submit my search repos form
+	When I enter a github user name of kenkhong
+		And I submit my search repos form
 	Then I should see no search result section for kenkhong
 
